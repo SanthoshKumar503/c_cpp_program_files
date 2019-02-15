@@ -1,0 +1,8 @@
+void f(int,short);
+void main()
+{
+int i=100;
+short s=12;
+short *p=&s;
+/*for call to f*/  f(i,*p);
+}
